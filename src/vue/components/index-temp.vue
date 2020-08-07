@@ -23,16 +23,6 @@
       <p class="bottom-text2">Copyright (C) 2010 - 2020 SQUARE ENIX CO., LTD. All Rights Reserved.</p>
     </div>
 
-    <!-- <video
-      width="100%"
-      controls
-      muted
-      src="http://192.168.199.100/static/mewtea/index-video4.mp4"
-      autoplay
-      loop
-    >
-      <source src="http://192.168.199.100/static/mewtea/index-video4.mp3" type="video/mp4" />
-    </video>-->
   </div>
 </template>
 
@@ -54,7 +44,6 @@ body {
   /* background-size: 100%; */
   background-repeat: no-repeat;
   font-family: Arial, "Microsoft YaHei";
-  /* color: #3399ff; */
 }
 
 #main {
