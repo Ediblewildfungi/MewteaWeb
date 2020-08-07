@@ -9,7 +9,7 @@
                 <ul class="nav-ul">
                     <li><a class="nav-a" href="#"><span id="this-page"> - 喵茶 - We Are Family </span></a></li>
 
-                    <li><a title="开发中" class="nav-a" href="./voice"><span>萌音</span></a></li>
+                    <li><a title="开发中" class="nav-a" href="#"><span>萌音</span></a></li>
 
                     <li><a title="开发中" class="nav-a" href="#"><span>喵云储</span></a></li>
                 </ul>
