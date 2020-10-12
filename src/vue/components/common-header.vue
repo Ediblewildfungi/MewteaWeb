@@ -8,6 +8,8 @@
             <div class="nav">
                 <ul class="nav-ul">
                     <li><a class="nav-a" href="#"><span id="this-page"> - 喵茶 - We Are Family </span></a></li>
+                    
+                    <li><a title="交流簿回收站" class="nav-a" href="https://mbs.mewtea.org/"><span>交流簿回收站</span></a></li>
 
                     <li><a title="开发中" class="nav-a" href="#"><span>萌音</span></a></li>
 
