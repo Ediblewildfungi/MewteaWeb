@@ -9,6 +9,7 @@ const config = require("../../config")
 
 
 const Voice = require('./routes/voice')
+const Macro = require('./routes/macro')
 
 const PORT = config.server.PORT
 
@@ -39,7 +40,7 @@ app.use(async (ctx, next) => {
 
 
 
-router.use('/api/v1', Voice.routes(), router.allowedMethods())
+router.use('/api/v1', Voice.routes(), Macro.routes(),router.allowedMethods())
 
 // 加载路由中间件
 app.use(router.routes()).use(router.allowedMethods())
