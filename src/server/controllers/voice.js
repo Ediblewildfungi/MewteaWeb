@@ -8,7 +8,6 @@ module.exports = {
   fetch: async (ctx, next) => {
     try {
 
-
       //要求传入的数据 用户token、id
 
       const appID = config.key.voiceAppID
@@ -29,12 +28,7 @@ module.exports = {
       // const tokenB = TokenBuilder.buildTokenWithAccount(appID, appCertificate, channelName, account, role, privilegeExpiredTs)
       const tokenA = TokenBuilder.buildTokenWithUid(appID, appCertificate, channel, account, role, privilegeExpiredTs)
       
-
-      
-      
-      
       // account = parseInt(account)
-
 
       var send = {
 

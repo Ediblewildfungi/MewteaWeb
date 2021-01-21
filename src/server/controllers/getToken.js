@@ -8,6 +8,8 @@
  *
  */
 
+// 该组件需要加载 AgoraIO/Tools 的部分组件才能运行
+
 const RtcTokenBuilder = require('./rtc/RtcTokenBuilder').RtcTokenBuilder;
 const RtcRole = require('./rtc/RtcTokenBuilder').Role;
 
