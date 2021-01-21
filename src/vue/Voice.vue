@@ -3,8 +3,8 @@
     <!-- <router-link to="/foo">Go to Foo</router-link>
     <router-link to="/bar">Go to Bar</router-link>
 
-    <router-view></router-view>
-    <p class="ttyys">1212</p>
+    <router-view></router-view> -->
+    <!-- <p class="ttyys">1212</p>
 
     <div id="example-1">
       <button v-on:click="counter += 1">Add 1</button>

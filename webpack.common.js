@@ -1,6 +1,6 @@
 const path = require('path')
 const { VueLoaderPlugin } = require("vue-loader")
-const {CleanWebpackPlugin} = require('clean-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
@@ -8,7 +8,7 @@ module.exports = {
     //入口
     entry: {
 
-        "index":'./src/vue/index.js',
+        "index": './src/vue/index.js',
         //指定"voice/"可以输出到vioce目录
         "voice/": './src/vue/voice.js',
     },
@@ -39,6 +39,10 @@ module.exports = {
                         }
                     }
                 ]
+            },
+            {
+                test: /\.(ttf|eot|svg|woff|woff2|otf)$/,
+                use: 'url-loader'
             }
         ]
     },

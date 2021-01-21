@@ -6,10 +6,6 @@ import axios from 'axios'
 const root = document.createElement('div')
 document.body.appendChild(root)
 
-
-
-
-
 const Channel = { template: '<div>group {{ $route.params.gid }} Channel{{ $route.params.cid }} </div>' }
 
 const Foo = { template: '<div>foo</div>' }
