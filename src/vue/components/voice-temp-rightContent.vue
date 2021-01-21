@@ -1,29 +1,23 @@
 <template>
-    <div class = "right-content">
-        <div class = "right-content-menber">
+    <div class="right-content">
+        <div class="right-content-menber">
             <div class="content-menber-list">
-
                 <ul>
                     <li>123</li>
                     <li>123</li>
                     <li>123</li>
                 </ul>
-
             </div>
         </div>
-        <div class = "right-content-chat">
-
-            <div class = "right-content-chat" ></div>
-            <div class = "right-content-chat" ></div>
-
+        <div class="right-content-chat">
+            <div class="right-content-chat"></div>
+            <div class="right-content-chat"></div>
         </div>
     </div>
 </template>
 
 <script>
-export default {
-    
-}
+export default {};
 </script>
 
 <style>
@@ -46,23 +40,39 @@ export default {
     height: 100%;
     background: #121212;
 }
-.right-content-menber{
+.right-content-menber {
     float: right;
     width: 280px;
     height: 100%;
     background: #121212;
 }
-@keyframes contentLight-running{
-    0%    {box-shadow: 5px -2px 8px #49E02D;}
-    33%   {box-shadow: 5px -2px 8px #397b16;}
-    66%   {box-shadow: 5px -2px 8px #2196F3;}
-    100%  {box-shadow: 5px -2px 8px #49E02D;}
+@keyframes contentLight-running {
+    0% {
+        box-shadow: 5px -2px 8px #49e02d;
+    }
+    33% {
+        box-shadow: 5px -2px 8px #397b16;
+    }
+    66% {
+        box-shadow: 5px -2px 8px #2196f3;
+    }
+    100% {
+        box-shadow: 5px -2px 8px #49e02d;
+    }
 }
 
-@keyframes contentLight-stop{
-    0%    {box-shadow: 5px -2px 8px #FF5722;}
-    33%   {box-shadow: 5px -2px 8px #9E9E9E;}
-    66%   {box-shadow: 5px -2px 8px #FF9800;}
-    100%  {box-shadow: 5px -2px 8px #FF5722;}
+@keyframes contentLight-stop {
+    0% {
+        box-shadow: 5px -2px 8px #ff5722;
+    }
+    33% {
+        box-shadow: 5px -2px 8px #9e9e9e;
+    }
+    66% {
+        box-shadow: 5px -2px 8px #ff9800;
+    }
+    100% {
+        box-shadow: 5px -2px 8px #ff5722;
+    }
 }
 </style>
