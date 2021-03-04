@@ -21,6 +21,7 @@
   "author": "Ediblewildfungi <jianghhui@gmail.com> (https://github.com/Ediblewildfungi)",
   "license": "MIT",
   "dependencies": {
+    "@koa/cors": "^3.1.0",
     "@koa/router": "^8.0.8",
     "axios": "^0.21.1",
     "bootstrap-icons": "^1.3.0",
