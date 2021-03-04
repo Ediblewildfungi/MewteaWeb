@@ -10,14 +10,31 @@
             </div>
         </div>
         <div class="right-content-chat">
+            <div class="right-content-chat">11122</div>
             <div class="right-content-chat"></div>
-            <div class="right-content-chat"></div>
+
+            <div id="app">
+                <h1>Bitcoin Price Index</h1>
+                <div v-for= "currency in info" key="currency" class="currency" >
+                    {{ currency.description }}:
+                    <span class="lighten">
+                        <span v-html="currency.symbol"></span
+                        >{{ currency.rate_float | currencydecimal }}
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
-export default {};
+export default {
+    filters: {
+        currencydecimal(value) {
+            return value.toFixed(2);
+        },
+    },
+};
 </script>
 
 <style>
