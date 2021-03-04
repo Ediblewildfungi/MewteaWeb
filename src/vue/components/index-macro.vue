@@ -23,7 +23,7 @@
 
 
             <!-- button test -->
-            <input @click="getMacroTest" type="button" value="getMacro" />
+            <!-- <input @click="getMacroTest" type="button" value="getMacro" /> -->
             <!-- test -->
 
         </div>
@@ -106,7 +106,7 @@ export default {
 
 @font-face {
     font-family: "FFXIV_Lodestone_SSF";
-    src: url("../assets/FFXIV_Lodestone_SSF.woff") format("woff");
+    src: url("https://static.moelist.top/nyatea/FFXIV_Lodestone_SSF.woff") format("woff");
     /* src: url("/lds/pc/global/fonts//FFXIV_Lodestone_SSF.eot?t=1592321622#iefix") format("eot"), url("/lds/pc/global/fonts//FFXIV_Lodestone_SSF.woff?t=1592321622") format("woff"), url("/lds/pc/global/fonts//FFXIV_Lodestone_SSF.ttf?t=1592321622") format("truetype"), url("/lds/pc/global/fonts//FFXIV_Lodestone_SSF.svg?t=1592321622#FFXIV_Lodestone_SSF") format("svg"); */
     font-weight: 400;
     font-style: normal;

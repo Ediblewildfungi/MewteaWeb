@@ -12,12 +12,12 @@
             id="indexvideo"
             width="100%"
             muted
-            src="http://127.0.0.1/mewtea.org/static/index-video4.mp4"
+            src="https://static.moelist.top/nyatea/index-video4.mp4"
             autoplay
             loop
         >
             <source
-                src="http://127.0.0.1/mewtea.org/static/index-video4.mp4"
+                src="https://static.moelist.top/nyatea/index-video4.mp4"
                 type="video/mp4"
             />
         </video>
@@ -57,7 +57,7 @@ export default {
 <style>
 @font-face {
     font-family: "FFXIV_Lodestone_SSF";
-    src: url("http://127.0.0.1/mewtea.org/static/FFXIV_Lodestone_SSF.woff")
+    src: url("https://static.moelist.top/nyatea/FFXIV_Lodestone_SSF.woff")
         format("woff");
     /* src: url("/lds/pc/global/fonts//FFXIV_Lodestone_SSF.eot?t=1592321622#iefix") format("eot"), url("/lds/pc/global/fonts//FFXIV_Lodestone_SSF.woff?t=1592321622") format("woff"), url("/lds/pc/global/fonts//FFXIV_Lodestone_SSF.ttf?t=1592321622") format("truetype"), url("/lds/pc/global/fonts//FFXIV_Lodestone_SSF.svg?t=1592321622#FFXIV_Lodestone_SSF") format("svg"); */
     font-weight: 400;

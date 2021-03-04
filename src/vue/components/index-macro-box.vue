@@ -34,19 +34,19 @@ export default {
 }
 
 .macro-box-bg0{
-    background: url(../assets/macro-box-bg1.jpg) right bottom no-repeat;
+    background: url(https://static.moelist.top/nyatea/macro-box-bg1.jpg) right bottom no-repeat;
 }
 
 .macro-box-bg1{
-    background: url(../assets/macro-box-bg2.jpg) right bottom no-repeat;
+    background: url(https://static.moelist.top/nyatea/macro-box-bg2.jpg) right bottom no-repeat;
 }
 
 .macro-box-bg2{
-    background: url(../assets/macro-box-bg3.jpg) right bottom no-repeat;
+    background: url(https://static.moelist.top/nyatea/macro-box-bg3.jpg) right bottom no-repeat;
 }
 
 .macro-box-bg4{
-    background: url(../assets/macro-box-bg3.jpg) right bottom no-repeat;
+    background: url(https://static.moelist.top/nyatea/macro-box-bg3.jpg) right bottom no-repeat;
 }
 
 .macro-little-title {
