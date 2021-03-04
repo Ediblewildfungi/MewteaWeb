@@ -1,8 +1,8 @@
 <template>
-  <!-- 加载动画 -->
-  <div id="load">
-    <div class="load-anime"></div>
-  </div>
+    <!-- 加载动画 -->
+    <div id="load">
+        <div class="load-anime"></div>
+    </div>
 </template>
 
 <script>

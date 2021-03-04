@@ -1,6 +1,6 @@
 <template>
   <div id="app">
- 
+
   <IndexTemp />
     
   </div>
@@ -16,6 +16,11 @@ export default {
   name: 'App',
   components: {
     IndexTemp
+  },
+    methods: {
+    goBack() {
+      window.history.length > 1 ? this.$router.go(-1) : this.$router.push("/");
+    }
   }
 }
 

@@ -3,6 +3,7 @@ rtc
 
 #  build file
 dist/
+localTest/
 
 # loacl config
 config.js
@@ -13,6 +14,9 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ps file
+*.psd
 
 # Runtime data
 pids

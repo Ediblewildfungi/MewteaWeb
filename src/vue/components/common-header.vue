@@ -3,7 +3,7 @@
 <header class="header">
         <div class="header-content">
             <div class="logo">
-                <a href="http://mewtea.org/"><img src="https://static.moelist.top/nyatea/event201902/img/biglogo.png" height="54px" alt="logo"></a>
+                <a href="./"><img src="https://static.moelist.top/nyatea/event201902/img/biglogo.png" height="54px" alt="logo"></a>
             </div>
             <div class="nav">
                 <ul class="nav-ul">
@@ -11,9 +11,22 @@
                     
                     <li><a title="交流簿回收站" class="nav-a" href="https://mbs.mewtea.org/"><span>交流簿回收站</span></a></li>
 
-                    <li><a title="开发中" class="nav-a" href="#"><span>萌音</span></a></li>
+                     <li><a title="交流簿回收站" class="nav-a" href="https://mbs.mewtea.org/"><span>交流簿回收站</span></a></li>
+
+                     <!-- Vue-router-link path: /macro -->
+                     <li> <router-link title="macro" class="nav-a" to="/macro"><span>常用宏</span></router-link></li>
+
+                    <li><a title="开发中" class="nav-a" href="./voice"><span>萌音</span></a></li>
 
                     <li><a title="开发中" class="nav-a" href="#"><span>喵云储</span></a></li>
+
+                    <li><a title="Mewtea API" class="nav-a" href="#"><span>API</span></a></li>
+
+                    <li><a title="连载中" class="nav-a" href="#"><span>喵茶四格</span></a></li>
+
+                    <li><a title="检疫证明" class="nav-a" href="#"><span>关于波奇</span></a></li>
+
+                    <li><a title="喵茶活动" class="nav-a" href="#"><span>喵茶活动</span></a></li>
                 </ul>
             </div>
         </div>
@@ -23,7 +36,6 @@
 
 <script>
 export default {
-    
 }
 </script>
 
@@ -78,5 +90,6 @@ header{
 .header-content a span {
     display: block;
     padding: 5px 15px 4px 6px;
+    line-height: 15px;
 }
 </style>

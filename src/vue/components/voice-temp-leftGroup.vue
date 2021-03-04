@@ -1,68 +1,56 @@
 <template>
-
     <!-- 左侧的小组列表 -->
-    <div class = "group-wrapper">
-        <div class = "group-list">
-            <div class = "group-main"> 
-                
+    <div class="group-wrapper">
+        <div class="group-list">
+            <div class="group-main">
                 <a href="#">
-                    <div class="group-icon">{{MainGroupIcon}}</div>
+                    <div class="group-icon">{{ MainGroupIcon }}</div>
                 </a>
-                
-                <div class = "group-main-online">
-                {{MainGroupOnline}}人在线
-                </div>
+
+                <div class="group-main-online">{{ MainGroupOnline }}人在线</div>
             </div>
 
             <!-- 分割线 -->
-            <div class = "group-line"></div>
+            <div class="group-line"></div>
 
-            <div class = "group-list"> 
-                
-                <a v-for="GroupIcon in GroupIcons"  v-bind:key="GroupIcon.list" href="#">
-                    <div class="group-icon">{{GroupIcon.list}}</div>
+            <div class="group-list">
+                <a
+                    v-for="GroupIcon in GroupIcons"
+                    v-bind:key="GroupIcon.list"
+                    href="#"
+                >
+                    <div class="group-icon">{{ GroupIcon.list }}</div>
                 </a>
-                
             </div>
 
             <!-- 分割线 -->
-            <div class = "group-line"></div>
+            <div class="group-line"></div>
 
             <!-- 设置 -->
-            <div class = "group-setting"> 
-                
+            <div class="group-setting">
                 <a href="#">
                     <div class="group-icon">设置</div>
                 </a>
-                
-                <div class = "group-main-online">
-                设置
-                </div>
+
+                <div class="group-main-online">设置</div>
             </div>
-
         </div>
-
     </div>
 </template>
 
 <script>
 export default {
-    data(){
+    data() {
         return {
-            MainGroupIcon:'MT',
-            MainGroupOnline:'10',
-            GroupIcons:[
-                {list:'K'},
-                {list:'0'},
-                {list:'T'},
-            ]
-        }
-    }
-}
+            MainGroupIcon: "MT",
+            MainGroupOnline: "10",
+            GroupIcons: [{ list: "K" }, { list: "0" }, { list: "T" }],
+        };
+    },
+};
 </script>
 
 <style>
-
 .group-wrapper {
     width: 80px;
     height: 100%;
@@ -77,19 +65,21 @@ export default {
     background-color: #404040;
     margin: 30px 10px 5px 12px;
     border-radius: 50%;
-    border: 1px solid #2B2B2B;
-    transition: border-radius .1s, box-shadow .5s, border .5s, background-color 1s;
+    border: 1px solid #2b2b2b;
+    transition: border-radius 0.1s, box-shadow 0.5s, border 0.5s,
+        background-color 1s;
     text-align: center;
     line-height: 50px;
     color: #c1c1c1;
-    font-size:20px;
+    font-size: 20px;
 }
 .group-icon:hover {
     border-radius: 25%;
-    box-shadow: 0px 0px 8px #FFF;
-    border: 1px solid #5F5F5F;
-    background-color: #E91E63;
-    transition: border-radius .2s, box-shadow .5s, border .5s, background-color 1s;
+    box-shadow: 0px 0px 8px #fff;
+    border: 1px solid #5f5f5f;
+    background-color: #e91e63;
+    transition: border-radius 0.2s, box-shadow 0.5s, border 0.5s,
+        background-color 1s;
 }
 .group-main-online {
     font-size: 14px;
@@ -101,5 +91,4 @@ export default {
     border-left: 35px solid #424242;
     border-right: 35px solid #424242;
 }
-
 </style>
