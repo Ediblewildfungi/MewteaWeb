@@ -1,9 +1,9 @@
 <template>
     <div id="main">
         <Header />
-
-
-        <!-- <router-link to="/test">Go to Bar</router-link> -->
+        <!-- <Macro /> -->
+        <br />
+        <router-link to="/test">Go to Bar</router-link>
         <div class="transition-ex">
             <router-view></router-view>
         </div>
@@ -12,12 +12,12 @@
             id="indexvideo"
             width="100%"
             muted
-            src="http://127.0.0.1/mewtea.org/static/index-video4.mp4"
+            src="https://static.moelist.top/nyatea/index-video4.mp4"
             autoplay
             loop
         >
             <source
-                src="http://127.0.0.1/mewtea.org/static/index-video4.mp4"
+                src="https://static.moelist.top/nyatea/index-video4.mp4"
                 type="video/mp4"
             />
         </video>
@@ -45,11 +45,13 @@
 
 <script>
 import Header from "./common-header.vue";
+import Macro from "./index-macro.vue";
 
 export default {
     name: "App",
     components: {
         Header,
+        Macro,
     },
 };
 </script>
@@ -57,7 +59,7 @@ export default {
 <style>
 @font-face {
     font-family: "FFXIV_Lodestone_SSF";
-    src: url("http://127.0.0.1/mewtea.org/static/FFXIV_Lodestone_SSF.woff")
+    src: url("https://static.moelist.top/nyatea/FFXIV_Lodestone_SSF.woff")
         format("woff");
     /* src: url("/lds/pc/global/fonts//FFXIV_Lodestone_SSF.eot?t=1592321622#iefix") format("eot"), url("/lds/pc/global/fonts//FFXIV_Lodestone_SSF.woff?t=1592321622") format("woff"), url("/lds/pc/global/fonts//FFXIV_Lodestone_SSF.ttf?t=1592321622") format("truetype"), url("/lds/pc/global/fonts//FFXIV_Lodestone_SSF.svg?t=1592321622#FFXIV_Lodestone_SSF") format("svg"); */
     font-weight: 400;
@@ -150,22 +152,6 @@ body {
     animation: transition-boxcontent 1s;
     animation-timing-function: cubic-bezier(0.83, 0.01, 0.15, 0.99);
 }
-
-::-webkit-scrollbar {
-    width: 3px;
-    height: 1px;
-}
-::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    background-color: #fbb2d4;
-    /* box-shadow: #000 0px 10px 5px; */
-    background-size: cover;
-}
-::-webkit-scrollbar-track {
-    background: #fff;
-    border-radius: 5px;
-}
-
 /* animation */
 
 @keyframes title-animation-bg {
@@ -173,7 +159,7 @@ body {
         background-color: #fff;
     }
     100% {
-        background-color: #e88eb8;
+        background-color: #ffa6c2;
     }
 }
 @keyframes title-animation2 {
