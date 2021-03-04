@@ -16,7 +16,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # ps file
-.psd
+*.psd
 
 # Runtime data
 pids
