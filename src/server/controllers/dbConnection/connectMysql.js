@@ -26,6 +26,7 @@ module.exports = {
                 password: database.password,
                 port: database.port,
                 database: database.database,
+                insecureAuth : database.insecureAuth
             })
 
             //数据库指令 sqlQuery
