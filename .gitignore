@@ -7,6 +7,8 @@ localTest/
 
 # loacl config
 config.js
+config-srv.js
+FFXIV_Lodestone_SSF.woff
 
 # Logs
 logs
