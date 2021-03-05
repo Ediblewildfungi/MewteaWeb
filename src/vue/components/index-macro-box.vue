@@ -3,9 +3,7 @@
         <div class="macro-box" :class="bg" >
             <h3 class="macro-little-title">{{ title }}</h3>
             <hr class="macro-hr" />
-            <pre class="macro-code">
-{{macroCode}}
-            </pre>
+            <pre class="macro-code">{{macroCode}}</pre>
             <div class="macro-box-image"></div>
         </div>
     </div>

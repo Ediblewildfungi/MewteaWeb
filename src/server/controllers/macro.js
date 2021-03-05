@@ -7,7 +7,7 @@ module.exports = {
         try {
 
             //数据库指令 sqlQuery
-            var sqlQuery = "SELECT * FROM test"
+            var sqlQuery = "SELECT * FROM macro"
 
             const res = await connectMysql.connectMysql("xxx", sqlQuery)
             ctx.sendOk({ res })
