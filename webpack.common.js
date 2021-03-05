@@ -55,6 +55,7 @@ module.exports = {
         new HtmlWebpackPlugin(
             {
                 title: 'Mewtea - web',
+                favicon: './favicon.png',
                 inject: true,
                 filename: 'index.html',
                 chunks: ['index'],
@@ -64,6 +65,7 @@ module.exports = {
         new HtmlWebpackPlugin(
             {
                 title: 'Moe Voice',
+                favicon: './favicon.png',
                 inject: true,
                 filename: 'voice/index.html',
                 chunks: ['voice/'],
