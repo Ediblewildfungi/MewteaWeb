@@ -33,6 +33,8 @@
 
 <script>
 import MacroBox from "./index-macro-box.vue"
+const config = require("../../../config")
+const geturl = config.server.MewteaServer + "api/v1/macro/read"
 
 export default {
     name: "Macro",
@@ -45,7 +47,7 @@ export default {
     methods: {
         getMacroTest() {
             this.axios
-                .get("http://localhost:5000/api/v1/macro/read")
+                .get(geturl)
                 .then((response) => {
                    
                     alert(response.data.data.res[0].text)
@@ -56,7 +58,7 @@ export default {
         },
         getMacro() {
             this.axios
-                .get("http://localhost:5000/api/v1/macro/read")
+                .get(geturl)
                 .then((response) => { 
                    var length = response.data.data.res.length
 

@@ -11,8 +11,6 @@
                     
                     <li><a title="交流簿回收站" class="nav-a" href="https://mbs.mewtea.org/"><span>交流簿回收站</span></a></li>
 
-                     <li><a title="交流簿回收站" class="nav-a" href="https://mbs.mewtea.org/"><span>交流簿回收站</span></a></li>
-
                      <!-- Vue-router-link path: /macro -->
                      <li> <router-link title="macro" class="nav-a" to="/macro"><span>常用宏</span></router-link></li>
 
@@ -20,7 +18,7 @@
 
                     <li><a title="开发中" class="nav-a" href="#"><span>喵云储</span></a></li>
 
-                    <li><a title="Mewtea API" class="nav-a" href="#"><span>API</span></a></li>
+                    <li><a title="Mewtea API" class="nav-a" href="https://api.mewtea.org/api/" target="_blank"><span>API</span></a></li>
 
                     <li><a title="连载中" class="nav-a" href="#"><span>喵茶四格</span></a></li>
 
