@@ -14,7 +14,7 @@
                      <!-- Vue-router-link path: /macro -->
                      <li> <router-link title="macro" class="nav-a" to="/macro"><span>常用宏</span></router-link></li>
 
-                    <li><a title="开发中" class="nav-a" href="./voice"><span>萌音</span></a></li>
+                    <li><a title="开发中" class="nav-a" href="#./voice"><span>萌音</span></a></li>
 
                     <li><a title="开发中" class="nav-a" href="#"><span>喵云储</span></a></li>
 
