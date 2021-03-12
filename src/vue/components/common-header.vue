@@ -7,12 +7,13 @@
             </div>
             <div class="nav">
                 <ul class="nav-ul">
-                    <li><a class="nav-a" href="#"><span id="this-page"> - 喵茶 - We Are Family </span></a></li>
+                    <li><a class="nav-a" href="#/"><span id="this-page"> - 喵茶 - We Are Family </span></a></li>
                     
                     <li><a title="交流簿回收站" class="nav-a" href="https://mbs.mewtea.org/"><span>交流簿回收站</span></a></li>
 
                      <!-- Vue-router-link path: /macro -->
                      <li> <router-link title="macro" class="nav-a" to="/macro"><span>常用宏</span></router-link></li>
+                     <li> <router-link title="macro" class="nav-a" to="/guide"><span>折纸系列</span></router-link></li>
 
                     <li><a title="开发中" class="nav-a" href="#./voice"><span>萌音</span></a></li>
 
@@ -24,7 +25,7 @@
 
                     <li><a title="检疫证明" class="nav-a" href="#"><span>关于波奇</span></a></li>
 
-                    <li><a title="喵茶活动" class="nav-a" href="#"><span>喵茶活动</span></a></li>
+                    <li><a title="喵茶活动" class="nav-a" href="https://event.mewtea.org/" target="_blank"><span>喵茶活动</span></a></li>
                 </ul>
             </div>
         </div>
@@ -76,10 +77,8 @@ header{
 .header-content a {
     float: left;
     padding: 0 0 0 4px;
-    text-decoration: none;
 }
 .nav-a {
-    text-decoration: none;
     color: #ffa6c0;
 }
 #this-page {

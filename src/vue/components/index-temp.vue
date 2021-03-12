@@ -2,7 +2,6 @@
     <div id="main">
         <Header />
 
-
         <!-- <router-link to="/test">Go to Bar</router-link> -->
         <div class="transition-ex">
             <router-view></router-view>
@@ -28,7 +27,6 @@
             </p>
         </div>
 
-
         <div class="bottom">
             <p class="bottom-text">
                 Copyright © 2016-2020 Mewtea All Rights Reserved.
@@ -42,7 +40,6 @@
             </p>
         </div>
     </div>
-
 </template>
 
 <script>
@@ -74,7 +71,9 @@ body {
     font-family: Arial, "Microsoft YaHei", "FFXIV_Lodestone_SSF";
     /* color: #3399ff; */
 }
-
+a {
+    text-decoration: none;
+}
 #main {
     background-color: #fff;
     position: absolute;
