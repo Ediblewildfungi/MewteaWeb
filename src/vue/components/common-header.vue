@@ -15,17 +15,22 @@
                      <li> <router-link title="macro" class="nav-a" to="/macro"><span>常用宏</span></router-link></li>
                      <li> <router-link title="macro" class="nav-a" to="/guide"><span>折纸系列</span></router-link></li>
 
-                    <li><a title="开发中" class="nav-a" href="#./voice"><span>萌音</span></a></li>
+                    <!-- <li><a title="开发中" class="nav-dev" href="#./voice"><span>萌音</span></a></li>
 
-                    <li><a title="开发中" class="nav-a" href="#"><span>喵云储</span></a></li>
+                    <li><a title="开发中" class="nav-dev" href="#"><span>喵云储</span></a></li> -->
+
+                    <li><router-link title="macro" class="nav-a" to="/yonkoma"><span>喵茶四格</span></router-link></li>
+
+                    <li><router-link title="macro" class="nav-a" to="/miq"><span>关于波奇</span></router-link></li>
 
                     <li><a title="Mewtea API" class="nav-a" href="https://api.mewtea.org/api/" target="_blank"><span>API</span></a></li>
 
-                    <li><a title="连载中" class="nav-a" href="#"><span>喵茶四格</span></a></li>
+                    <li><a title="喵茶活动" class="nav-dev" href="https://event.mewtea.org/" target="_blank"><span>喵茶活动</span></a></li>
 
-                    <li><a title="检疫证明" class="nav-a" href="#"><span>关于波奇</span></a></li>
+                   <li><a title="开发中" class="nav-dev" href="#./voice"><span>萌音</span></a></li>
 
-                    <li><a title="喵茶活动" class="nav-a" href="https://event.mewtea.org/" target="_blank"><span>喵茶活动</span></a></li>
+                    <li><a title="开发中" class="nav-dev" href="#"><span>喵云储</span></a></li>
+
                 </ul>
             </div>
         </div>
@@ -80,6 +85,18 @@ header{
 }
 .nav-a {
     color: #ffa6c0;
+    text-shadow: 0px 0px 0px #fff;
+    transition: text-shadow 0.5s ,color 0.5s ;
+}
+.nav-dev {
+    color: #9e9e9e;
+    text-shadow: 0px 0px 0px #fff;
+    transition: text-shadow 0.5s;
+}
+.nav-a:hover{
+    color: #fff;
+    text-shadow: 0px 0px 10px #e91e63;
+    transition: text-shadow 0.5s ,color 0.5s ;
 }
 #this-page {
     color: #72BDE4;

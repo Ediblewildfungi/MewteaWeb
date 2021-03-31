@@ -54,7 +54,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin(
             {
-                title: 'Mewtea - web',
+                title: 'Mewtea - 喵茶',
                 favicon: './favicon.png',
                 inject: true,
                 filename: 'index.html',

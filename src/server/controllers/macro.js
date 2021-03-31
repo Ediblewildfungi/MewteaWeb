@@ -8,17 +8,14 @@ module.exports = {
 
             //数据库指令 sqlQuery
             var sqlQuery = "SELECT * FROM macro"
-
             const res = await connectMysql.connectMysql("xxx", sqlQuery)
             ctx.sendOk({ res })
             
-
         } catch (e) {
 
             // error
             console.log(e)
             ctx.sendError('数据喵抛出了一个异常，请稍后重试！')
-
         }
         return next()
     },
@@ -29,9 +26,7 @@ module.exports = {
             voiceID: 2,
             token: "tokenA",
         }
-
         ctx.sendOk(send)
-
     },
 }
 
