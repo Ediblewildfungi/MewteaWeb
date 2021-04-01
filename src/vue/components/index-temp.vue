@@ -11,12 +11,12 @@
             id="indexvideo"
             width="100%"
             muted
-            src="https://static.moelist.top/nyatea/index-video4.mp4"
+            src="https://static.moelist.top/nyatea/index-video5.mp4"
             autoplay
             loop
         >
             <source
-                src="https://static.moelist.top/nyatea/index-video4.mp4"
+                src="https://static.moelist.top/nyatea/index-video5.mp4"
                 type="video/mp4"
             />
         </video>
