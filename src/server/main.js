@@ -23,8 +23,14 @@ const router = new Router()
 
 const staticPath = '../../dist'
 
+
+//koa-static
+const opt = {
+    hidden: true,
+}
 app.use(Static(
-    path.join(__dirname, staticPath)
+    path.join(__dirname, staticPath),opt
+
 
 ))
 
@@ -45,7 +51,7 @@ app.use(async (ctx, next) => {
 
 
 
-router.use('/api/v1', Voice.routes(), Macro.routes(),router.allowedMethods())
+router.use('/api/v1', Voice.routes(), Macro.routes(), router.allowedMethods())
 
 // 加载路由中间件
 app.use(router.routes()).use(router.allowedMethods())
