@@ -24,6 +24,6 @@ module.exports = {
     key: {
         voiceAppID: "",
         voiceAppCertificate: "",
-        tokenExpirationTime: 
+        tokenExpirationTime: ""
     }
 };
